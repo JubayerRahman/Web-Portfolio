@@ -1,13 +1,17 @@
 body{
+    margin: 0px;
     font-family: 'Raleway', sans-serif;
 }
 h1{
     font-size: 50px;
 }
+h2{
+    font-weight: 900;
+}
 .highLightName{
     color: orange;
 }
-.half-width{
+.half-width,.half-width2, .half-width3{
     width: 40%;
     float: left;
     margin-left: 5%;
@@ -15,9 +19,90 @@ h1{
 }
 p{
     color: black;
-    width: 800;
+    font-weight: 800;
 }
 
-.half-width img{
+.half-width2 img,.half-width img{
     width: 100%;
+}
+.top-Section{
+    background-image: url("./Images/top-banner.png");
+    background-repeat: no-repeat;
+}
+section{
+    height: 500px;
+}
+
+.talk-Button{
+    text-decoration: none;
+    color: white;
+    background-image: linear-gradient(45deg,orange,red);
+    padding: 10px 20px;
+    border-radius: 15px;
+    margin-top: 20px;
+    font-weight: 800;
+}
+
+.talk-Button:hover{
+    background-image: linear-gradient(45deg,white,white);
+    border: 2px solid;
+    color:orange;
+    font-weight: 800;
+}
+.middle-Section{
+    background-image: url("./Images/dream-bg.png");
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.last-Section{
+    text-align: left;
+}
+.batparHeadding{
+    font-size: 35px;
+}
+
+.last-Section{
+    background-image: url("./Images/exp-bg.png");
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+.half-width3{
+    box-shadow: 10px 20px 40px gray;
+    border-radius: 5px;
+    height: 400px;
+    padding-left: 20px;
+}
+
+#fullsack{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg,orange,red);
+    border-image-slice: 1;
+    background-color: white;
+}
+
+#wordpressDeveloper{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg,blue,cyan);
+    border-image-slice: 1;
+}
+
+#fullsack:hover{
+    background-image: linear-gradient(-180deg,orange,red);
+    color: white;
+}
+#secpialEffect{
+    color: darkgoldenrod;
+}
+#secpialEffect:hover{
+    color: white;
+}
+#wordpressDeveloper:hover{
+    background-image: linear-gradient(180deg,blue,cyan);
+}
+
+.footer{
+    text-align: center;
+    font-size: 12px;
 }
