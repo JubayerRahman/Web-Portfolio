@@ -59,6 +59,7 @@ section{
     text-align: left;
 }
 .batparHeadding{
+    margin-left: 10px;
     font-size: 35px;
 }
 
@@ -105,4 +106,36 @@ section{
 .footer{
     text-align: center;
     font-size: 12px;
+}
+
+#oheeImage1{
+    position: relative;
+    animation-name: oheeImage1;
+    animation-duration: 2s;
+    animation-delay: 1s;
+    animation-direction:reverse;
+    /* animation-iteration-count: infinite; */
+}
+
+@keyframes oheeImage1 {
+    100%{
+        transform: translateX(100%);
+    }
+}
+#oheeImage2 {
+    position: relative;
+    animation-name: oheeImage2;
+    animation-duration: 4s;
+    animation-delay: 1s;
+    animation-fill-mode: forwards;
+    /* animation-iteration-count: infinite; */
+}
+
+@keyframes oheeImage2 {
+    0%{
+        transform: translateX(-100%);
+    }
+    100%{
+        transform: translateX(0%);
+    }
 }
